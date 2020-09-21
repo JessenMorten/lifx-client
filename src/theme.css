@@ -1,0 +1,81 @@
+:root {
+    --base: #282d33;
+    --background: #343a40;
+    --contrast: #ffffff;
+    --theme-darker: #9c782b;
+    --theme-dark: #b68c32;
+    --theme: #dba83b;
+}
+
+body {
+    background: var(--background);
+    color: var(--contrast);
+}
+
+/* Background */
+
+.bg-base {
+    background: var(--base);
+}
+
+.bg-background {
+    background: var(--background);
+}
+
+/* Button */
+
+.btn-theme {
+    color: var(--base) !important;
+    background-color: var(--theme) !important;
+    border-color: var(--theme-dark) !important;
+}
+
+.btn-theme:hover {
+    color: var(--base) !important;
+    background-color: var(--theme-dark) !important;
+    border-color: var(--theme-darker) !important;
+}
+
+.btn-theme:active {
+    color: var(--base) !important;
+    background-color: var(--theme) !important;
+    border-color: var(--theme-dark) !important;
+}
+
+.btn-outline-theme {
+    color: var(--theme) !important;
+    background-color: var(--base) !important;
+    border-color: var(--theme) !important;
+}
+
+.btn-outline-theme:hover {
+    color: var(--base) !important;
+    background-color: var(--theme) !important;
+    border-color: var(--theme-dark) !important;
+}
+
+.btn-outline-theme:active {
+    color: var(--base) !important;
+    background-color: var(--theme) !important;
+    border-color: var(--theme-dark) !important;
+}
+
+/* Text */
+
+.text-theme {
+    color: var(--theme) !important;
+}
+
+a.text-theme:hover {
+    color: var(--theme-dark) !important;
+}
+
+a.text-theme:focus {
+    color: var(--theme-darker) !important;
+}
+
+/* Border */
+
+.border-theme {
+    border-color: var(--theme) !important;
+}
