@@ -2,6 +2,8 @@
 
 Simple React client for controlling LIFX lightbulbs. Read about the LIFX HTTP API [here](https://api.developer.lifx.com/docs).
 
+![Screenshot](screenshot.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
